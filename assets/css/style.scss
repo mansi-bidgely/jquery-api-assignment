@@ -1,0 +1,250 @@
+* {
+	font-family: Gill Sans Extrabold, cursive;
+}
+#tag {
+	font-size: 16px;
+}
+.number {
+	font-weight: 700;
+	font-size: 21px;
+}
+.tested {
+	font-size: 16px;
+	padding: 12px;
+	background-color: #E2E2F3;
+	border-radius: 9px;
+	margin: 12px;
+}
+.margin-top {
+	margin-top: 75px;
+}
+#search {
+	margin-left: 30px;
+}
+.stateData {
+	display: flex;
+}
+.confirmedCountry {
+	background-color: #ffE0E6;
+	border-radius: 9px;
+	display: inline-block;
+	width: 22%;
+	text-align: center;
+	color: #ff073a;
+	padding: 10px;
+}
+.activeCountry {
+	background-color: #EFF7FF;
+	border-radius: 9px;
+	display: inline-block;
+	width: 22%;
+	text-align: center;
+	color: #007bff;
+	padding: 10px;
+}
+.recoveredCountry {
+	background-color: #E4F4E8;
+	border-radius: 9px;
+	display: inline-block;
+	width: 22%;
+	text-align: center;
+	color: #49b467;
+	padding: 10px;
+}
+.deathCountry {
+	background-color: #F6F6F7;
+	border-radius: 9px;
+	display: inline-block;
+	width: 22%;
+	text-align: center;
+	padding: 10px;
+}
+#state_table {
+	font-size: 19px;
+	margin-left: 219px;
+}
+.countryData {
+	display: flex;
+	margin-left: 47px;
+}
+#logo {
+	margin-left: -23px;
+	margin-top: -24px;
+	width: 164px;
+}
+#printDate {
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 30px;
+	margin-left: 13px;
+}
+#stateName {
+	font-weight: bold;
+	color: #d02f2f;
+	font-size: 25px;
+	background-color: #ffe0e6;
+	padding: 12px;
+	margin-left: 12px;
+	margin-top: 47px;
+}
+#tested {
+	font-size: 18px;
+	font-weight: 800;
+}
+#totalTested {
+	float: right;
+	margin-right: -126px;
+	margin-top: -129px;
+	color: #26b0b7;
+}
+#testedTag {
+	font-size: 16px;
+	margin-left: 21px;
+}
+.top-margin {
+	margin-top: 15px;
+}
+#countryHead {
+	margin-left: 22px;
+}
+#countryHeader {
+	margin: 12px 0px 0px 19px;
+	align-content: center;
+}
+.search {
+	label {
+		margin-left: 12px;
+	}
+}
+#tagState {
+	font-size: 18px;
+}
+.confirmed {
+    height: 200px;
+	padding: 14px;
+	span {
+		color: #ff073a;
+	}
+	&:hover {
+	background-color: #ffe0e6;
+
+	}
+}
+
+
+
+.active {
+height: 200px;
+	padding: 14px;
+	span {
+		color: #007bff;
+	}
+	&:hover {
+	background-color: #EFF7FF;
+	}
+}
+
+.recovered {
+	padding: 14px;
+	height: 200px;
+	span {
+		color: #49b467;
+	}
+	&:hover {
+	background-color: #E4F4E8;
+	}
+}
+.death {
+	padding: 14px;
+	height: 200px;
+	span {
+		color: #6c757d;
+	}
+	&:hover {
+	background-color: #F6F6F7;
+	}
+}
+#stateConfirm {
+	color: #ff073a;
+}
+#stateActive {
+	color: #007bff;
+}
+#stateRecover {
+	color: #49b467;
+}
+#stateDeath,.deathCountry {
+	color: #6c757d;
+}
+
+#stateConfirm,#stateActive,#stateRecover,#stateDeath {
+	margin-top: 27px;
+}
+#stateWise {
+	margin-left: 208px;
+	font-weight: bold;
+	font-size: 25px;
+	padding: 10px;
+}
+.table {
+	tr {
+		td {
+			background-color: #efeaea;
+		}
+		th {
+			background-color: #c3b7b7;
+		}
+	}
+}
+#searchBtn {
+	border-radius: 0px 7px 7px 0px;
+	background-color: #fff;
+	border: none;
+	position: absolute;
+	right: 79px;
+	top: 63px;
+	height: 54px;
+}
+#searchInput {
+	background: #fff;
+	border: none;
+	border-radius: 7px 0px 0px 7px;
+	box-shadow: 0 5px 32px rgba(0, 0, 0, .1);
+	color: #6c757d;
+	font-size: 17px;
+	height: 54px;
+	margin-left: -20px;
+	margin-top: 18px;
+	padding: 16px;
+	outline: none;
+	width: 85%;
+}
+h4 {
+	text-align: center;
+}
+.sidenav {
+	background-color: #111;
+	height: 100%;
+	left: 0;
+	overflow-x: hidden;
+	padding-top: 20px;
+	position: fixed;
+	top: 0;
+	width: 160px;
+	z-index: 1;
+	a {
+		color: #818181;
+		display: block;
+		font-size: 25px;
+		padding: 6px 8px 6px 16px;
+		text-decoration: none;
+		&:hover {
+			color: #f1f1f1;
+		}
+	}
+}
+.main {
+	font-size: 28px;
+	padding: 0px 10px;
+	font-family: archia;
+}
